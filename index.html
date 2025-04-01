@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('home')">Home</button>
+        <button class="tab-button" onclick="showTab('about')">About</button>
+        <button class="tab-button" onclick="showTab('services')">Services</button>
+        <button class="tab-button" onclick="showTab('contact')">Contact</button>
+    </div>
+
+    <div id="home" class="tab-content">
+        <h2>Welcome to the Home Tab</h2>
+        <p>This is the Home section.</p>
+    </div>
+    <div id="about" class="tab-content">
+        <h2>About Us</h2>
+        <p>This is the About section.</p>
+    </div>
+    <div id="services" class="tab-content">
+        <h2>Our Services</h2>
+        <p>This is the Services section.</p>
+    </div>
+    <div id="contact" class="tab-content">
+        <h2>Contact Us</h2>
+        <p>This is the Contact section.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
